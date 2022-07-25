@@ -1,0 +1,29 @@
+@import "../../Styles/variables.scss";
+
+.card {
+  min-width: 200px;
+  max-width: 450px;
+  min-height: 250px;
+  margin: "0px";
+}
+.body {
+  color: $color-purple;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  width: 60%;
+}
+.img {
+  padding: 5px;
+  max-height: 300px;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.imgCart {
+  padding: 5px;
+  max-width: 250px;
+}

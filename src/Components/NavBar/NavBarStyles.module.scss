@@ -1,0 +1,61 @@
+@import "../../Styles/variables.scss";
+
+.containerNavBar {
+  padding: 10px 0;
+  display: flex;
+  color: $color-grey;
+  flex-direction: column;
+  // justify-content: space-evenly;
+  align-items: center;
+}
+.navlinks {
+  list-style: none;
+  display: flex;
+  padding-top: 10px;
+  // justify-content: space-around;
+  // background-color: black;
+}
+
+.link {
+  text-align: center;
+  // background-color: blue;
+  width: 80px;
+  
+  padding: 10px;
+  text-decoration: none;
+  color: $color-grey;
+  background-color: $color-pale-pink;
+  // margin: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  &:hover {
+    background-color: $color-grey;
+    color: $color-pale-pink;
+    box-shadow: 0px 4px 3px rgb(49, 49, 49);
+  }
+}
+.basket {
+  width: 30px;
+  margin-right: 5px;
+}
+.buyLink {
+  padding: 10px;
+  position: relative;
+  top: -50px;
+  background-color: $color-pale-pink;
+  color: $color-grey;
+  text-decoration: none;
+  font-weight: 500;
+
+  // margin-bottom: 100px!important;
+  &:hover {
+    background-color: $color-grey;
+    color: $color-purple;
+    box-shadow: 3px 3px 3px rgb(49, 49, 49);
+  }
+}
+@media only screen and (min-width: 600px) {
+  .link {
+    width: 140px;
+  }
+}

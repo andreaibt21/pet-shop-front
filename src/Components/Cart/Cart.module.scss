@@ -1,0 +1,42 @@
+.empty {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.containerCards {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65%;
+  img {
+    width: 30%;
+  
+  }
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.imgBear1 {
+  position: fixed;
+  width: 15%;
+  height: 40%;
+  left: 0;
+  top: 250px;
+  margin-left: 150px;
+}
+.imgBear2 {
+  position: fixed;
+  width: 15%;
+  height: 40%;
+  right: 0;
+  top: 250px;
+  margin-right: 150px;
+}

@@ -1,25 +1,15 @@
-import logo from "./logo.svg";
-import style from "./App.module.scss";
+import Styles from "./App.module.scss";
+import { Outlet } from "react-router-dom";
+import NavBar from "./Components/NavBar";
 
-function App() {
+const App = () => {
   return (
-    <div className={style.App}>
-      <header className={style["App-header"]}>
-        <img src={logo} className={style["App-logo"]} alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className={style["App-link"]}
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={Styles.containerApp}>
+      <NavBar />
+
+      <Outlet></Outlet>
     </div>
   );
-}
+};
 
 export default App;

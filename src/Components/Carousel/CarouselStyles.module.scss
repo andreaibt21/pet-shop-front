@@ -1,0 +1,47 @@
+@import "../../Styles/variables.scss";
+
+.imgCarousel {
+  display: block;
+  height: 300px;
+  position: center;
+  margin: 0 auto;
+}
+
+.containerCarousel {
+  // background-color: blue;
+  width: 90%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerContainerCarousel {
+  width: 75%;
+  padding-bottom: 30px;
+}
+
+.buyLink {
+  padding: 10px;
+  position: relative;
+  top: -50px;
+  background-color: $color-pale-pink;
+  color: $color-grey;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  
+  // margin-bottom: 100px!important;
+  &:hover {
+    background-color: $color-grey;
+    color: $color-purple;
+    box-shadow: 3px 3px 3px rgb(49, 49, 49);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+
+
+
+}

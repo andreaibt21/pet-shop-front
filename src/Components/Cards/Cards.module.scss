@@ -1,0 +1,33 @@
+@import "../../Styles/variables.scss";
+
+.divContainer{
+display: flex;
+justify-content: center;
+}
+
+
+.containerCards {
+  padding: 15px;
+  width: 87%;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 450px) {
+  .containerCards {
+    
+    grid-template-columns: auto auto ;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .containerCards {
+    grid-template-columns: auto auto auto ;
+  }
+}
+
+    

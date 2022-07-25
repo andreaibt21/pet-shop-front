@@ -1,0 +1,31 @@
+@import "../../Styles/variables.scss";
+
+.perfilContainer {
+  width: 100%;
+}
+
+.info {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $color-purple;
+  h1 {
+    padding: 20px;
+  }
+}
+
+.button {
+  width: 120px;
+  font-weight: 500;
+  background-color: $color-pale-pink;
+  border: 0px;
+  margin-bottom: 40px;
+  color: $color-purple;
+  &:hover {
+    background-color: $color-grey;
+    color: $color-pale-pink;
+    border-color: $color-grey;
+  }
+}
